@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+    transition-duration: 6s;
+  }
+  
+.home{
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+}
+.photo_btn{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.profile_photo{
+    width: 90%;
+    height: 30%;
+    border-radius: 0 0 80% 0;
+    border-color: solid 2px aquamarine;
+}
+.btn_profile{
+    text-decoration: none;
+    color: aliceblue;
+    border-style: double;
+}
+.introduction_data{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.title_profile{
+    font-size: 100px;
+    margin-left: 300px;
+}
+.sub_title{
+    font-size: 60px;
+}
+.description{
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
+@media screen and (max-width:900px){
+    .home{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin: 10px;
+    }
+    .photo_btn{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile_photo{
+        width: 70%;
+        height: 15%;
+        border-radius: 0 0 40% 0;
+        margin-bottom: 10px;
+    }
+    .btn_profile{
+        margin: 10px;
+    }
+    .title_profile{
+        font-size: 50px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .sub_title{
+        font-size: 30px;
+    }
+    
+}
