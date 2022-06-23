@@ -9,8 +9,8 @@
 .skills_data{
     min-height: 100vh;
     width: 100%;
-    background: rgb(93, 85, 85);
-    padding: 0 100px;
+    background: rgb(92, 88, 88);
+    padding: 0 10px;
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -19,14 +19,20 @@
 .my_skills{
  mix-blend-mode: difference;
  z-index: 1;    
+ height: 39rem;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ justify-content: space-around;
+ align-items:center;
 }
 .my_skills:hover .skills_item_title{
     opacity: 0.1;
 }
 .skills_item{
-    display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
+
 }
 .skills_item:hover .skills_item_title{
     cursor: pointer;
@@ -69,7 +75,7 @@
     opacity: 1;
 }
 .about_me{
-    background-color: rgb(59, 41, 41);
+    background-color: rgb(59, 58, 58);
     width: 100%;
     height: 100%;
     z-index: 9;
@@ -100,8 +106,8 @@
         font-size: 30px;
     }
     .skills_media{
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
     .title_paragraph{
         font-size: 40px;
